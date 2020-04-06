@@ -1,7 +1,7 @@
 # Creación de un cluster EKS
 
 Este repo contiene dos carpetas:
-Kubernetes: Contiene la creaación del cluster en AWS mediante terraform
+Kubernetes: Contiene la creación del cluster en AWS mediante terraform
 usuarios: Contiene un helm con los elementos a crear dentro del cluster
 
 ## Kubernetes. IaC con Terraform
