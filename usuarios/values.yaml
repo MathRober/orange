@@ -1,0 +1,13 @@
+# helm install --debug --dry-run  msk ./msk
+namespaces:
+  - usuario-1
+  - usuario-2
+
+clusterroles:
+  - nombre: usuario-1
+    permiso: view
+  - nombre: usuario-2
+    permiso: view
+  - nombre: administrador
+    permiso: cluster-admin
+

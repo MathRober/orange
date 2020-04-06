@@ -1,0 +1,28 @@
+---
+kind: RoleBinding
+apiVersion: rbac.authorization.k8s.io/v1
+metadata:
+  name: rolebinding01
+  namespace: usuario-1
+subjects:
+- kind: User
+  name: usuario-1
+  namespace: usuario-1
+roleRef:
+  kind: Role
+  name: edit
+  apiGroup: rbac.authorization.k8s.io
+---
+kind: RoleBinding
+apiVersion: rbac.authorization.k8s.io/v1
+metadata:
+  name: rolebinding02
+  namespace: usuario-2
+subjects:
+- kind: User
+  name: usuario-2
+  namespace: usuario-2
+roleRef:
+  kind: Role
+  name: edit
+  apiGroup: rbac.authorization.k8s.io
