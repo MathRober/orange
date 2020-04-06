@@ -24,7 +24,7 @@ Desde una consola cmd o bash, configurar las variables de entorno de acceso a AW
 - set AWS_DEFAULT_REGION=<AWS_DEFAULT_REGION>
 
 Descargar Terraform desde esta url: https://www.terraform.io/downloads.html
-Hacer un clone del repositorio  xxxxxx y ejecutar:
+Hacer un clone del repositorio  del repositorio y ejecutar:
 
 ```bash
 
