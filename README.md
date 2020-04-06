@@ -41,7 +41,7 @@ aws eks --region eu-west-3 update-kubeconfig --name cluster01
 
 # Instalación de los yaml
 
-Situarse ene la raiz del repo y ejecutar:
+Situarse en la raiz del repo y ejecutar:
 
 ```bash
 
