@@ -1,0 +1,2 @@
+git-client:latest
+maven-plugin:latest

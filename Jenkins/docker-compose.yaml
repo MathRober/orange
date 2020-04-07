@@ -1,0 +1,9 @@
+version: '2.0'
+services:
+  jenkins:
+    build: .
+    ports:
+    - "5000:5000"
+    - "8080:8080"
+    volumes:
+    - "./data:/var/jenkins_home"
