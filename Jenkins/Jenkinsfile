@@ -1,0 +1,19 @@
+pipeline {
+    agent any
+
+    stages {
+        stage('CloneGit') {
+            steps {
+                step([$class: 'WsCleanup'])
+                sh "mkdir -p $WORKSPACE; \
+                git clone https://github.com/luishernandez25/easyTest"
+            }
+        }
+        stage('Test') {
+            steps {
+                sh 'cd $WORKSPACE/easyTest; mvn test'
+            }
+        }
+    }
+    cleanWs()
+}
